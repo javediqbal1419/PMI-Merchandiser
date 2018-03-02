@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f33745dfdcecd6"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Qaise'r"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/7/2018 11:58:49 AM"
+		timestampiso="2018-02-07T06:58:49"
+		endtime="2/7/2018 12:00:20 PM"
+		timeoutfactor="1"
+		module="LaunchTradeTracker">
+		<detail>
+			LaunchTradeTracker
+		</detail>
+		<errormessage>
+			Attribute 'Caption' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.List1.UnitsInfo_text' does not match the specified value (Failed to find item 'TradeTrackerProjectRepository.PkComTradetracker.List1.UnitsInfo_text'. No element found for path '/mobileapp[@title='pk.com.tradetracker']/form[@title='BwuUnitListScreen']//list[@rid='list']/?/?/text[@caption='Units Info:']' within 1.5m.).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.537"
+			timeRelativeToTestModuleStartTime="00:00.538"
+			timeWallClock="11:58:50"
+			time="00:00.537"
+			level="Info"
+			category="Validation"
+			errimg=".\LaunchTr_8ed6881c_202c25cd_trace.jpg"
+			errthumb=".\LaunchTr_8ed6881c_202c25cd_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Caption='Units Info:') on item 'PkComTradetracker.List1.UnitsInfo_text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='BwuUnitListScreen']//list[@rid='list']/?/?/text[@caption='Units Info:']"
+				itempath="?/?/text[@caption='Units Info:']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.List1.UnitsInfo_text"
+				id="fab0aa631d76405a84246b3d90a34bd7"
+				timeout="90000"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="82"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:30.585"
+			timeRelativeToTestModuleStartTime="01:30.586"
+			timeWallClock="12:00:20"
+			time="01:30.585"
+			level="Failure"
+			category="Validation"
+			errimg=".\LaunchTr_8ed6881c_202c25cd_trace.jpg"
+			errthumb=".\LaunchTr_8ed6881c_202c25cd_trace_thumb.jpg">
+			<message>
+				Attribute 'Caption' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.List1.UnitsInfo_text' does not match the specified value (Failed to find item 'TradeTrackerProjectRepository.PkComTradetracker.List1.UnitsInfo_text'. No element found for path '/mobileapp[@title='pk.com.tradetracker']/form[@title='BwuUnitListScreen']//list[@rid='list']/?/?/text[@caption='Units Info:']' within 1.5m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='BwuUnitListScreen']//list[@rid='list']/?/?/text[@caption='Units Info:']"
+				itempath="?/?/text[@caption='Units Info:']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.List1.UnitsInfo_text"
+				id="fab0aa631d76405a84246b3d90a34bd7"
+				timeout="90000"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="15">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:30.605"
+			timeRelativeToTestModuleStartTime="01:30.606"
+			timeWallClock="12:00:20"
+			time="01:30.605"
+			level="Error"
+			category="Module"
+			errimg=".\LaunchTr_8ed6881c_202c25cd_trace.jpg"
+			errthumb=".\LaunchTr_8ed6881c_202c25cd_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Caption' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.List1.UnitsInfo_text' does not match the specified value (Failed to find item 'TradeTrackerProjectRepository.PkComTradetracker.List1.UnitsInfo_text'. No element found for path '/mobileapp[@title='pk.com.tradetracker']/form[@title='BwuUnitListScreen']//list[@rid='list']/?/?/text[@caption='Units Info:']' within 1.5m.).<br/>Failed to find item 'TradeTrackerProjectRepository.PkComTradetracker.List1.UnitsInfo_text'.<br/>No element found for path '/mobileapp[@title='pk.com.tradetracker']/form[@title='BwuUnitListScreen']//list[@rid='list']/?/?/text[@caption='Units Info:']' within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at TradeTrackerProject.LaunchTradeTracker.Ranorex.Core.Testing.ITestModule.Run() in d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="83"
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='BwuUnitListScreen']//list[@rid='list']/?/?/text[@caption='Units Info:']"
+				itempath="?/?/text[@caption='Units Info:']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.List1.UnitsInfo_text"
+				id="fab0aa631d76405a84246b3d90a34bd7"
+				timeout="90000"
+				loglvl="Error"
+				itemindex="15">
+			</metainfo>
+		</item>
+	</activity>
+</report>

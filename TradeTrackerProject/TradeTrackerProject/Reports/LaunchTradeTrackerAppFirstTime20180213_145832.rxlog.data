@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="644a4e70e082ed8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/13/2018 2:58:46 PM"
+		timestampiso="2018-02-13T09:58:46"
+		endtime="2/13/2018 2:58:51 PM"
+		timeoutfactor="1"
+		module="LaunchTradeTrackerAppFirstTime">
+		<detail>
+			LaunchTradeTrackerAppFirstTime
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.937"
+			timeRelativeToTestModuleStartTime="00:03.937"
+			timeWallClock="14:58:49"
+			time="00:03.937"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '12345678' on item 'PkComTradetracker.TPOSMLoading_UnitPoster'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^TouchPointInformationColl']/container[@rid='content']/?/?/container[@containertype='ScrollView']/container[@containertype='Linear']/container[1]/text"
+				itempath="form[@title~'^TouchPointInformationColl']/container[@rid='content']/?/?/container[@containertype='ScrollView']/container[@containertype='Linear']/container[1]/text"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TPOSMLoading_UnitPoster"
+				id="b49570be237c4f1992b675de6c23b3ae"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="82"
+				itemindex="19"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

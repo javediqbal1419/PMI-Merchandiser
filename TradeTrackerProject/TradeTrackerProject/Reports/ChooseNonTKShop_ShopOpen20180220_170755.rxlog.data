@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="65727e5a6f531d8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/20/2018 5:08:11 PM"
+		timestampiso="2018-02-20T12:08:11"
+		endtime="2/20/2018 5:08:17 PM"
+		timeoutfactor="1"
+		module="ChooseNonTKShop_ShopOpen">
+		<detail>
+			ChooseNonTKShop_ShopOpen
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation' does not match the specified value (actual='Trade Tracker', expected='Trade tracker').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.130"
+			timeRelativeToTestModuleStartTime="00:04.130"
+			timeWallClock="17:08:15"
+			time="00:04.130"
+			level="Info"
+			category="Validation"
+			errimg=".\ChooseNo_26d0f2f2_2d9ad583_trace.jpg"
+			errthumb=".\ChooseNo_26d0f2f2_2d9ad583_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Trade tracker') on item 'PkComTradetracker.TradeTracker_validation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				itempath="?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation"
+				id="6feb4ff346e448138f0f1730043a66c2"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\ChooseNonTKShop_ShopOpen.cs"
+				codeline="82"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.764"
+			timeRelativeToTestModuleStartTime="00:04.764"
+			timeWallClock="17:08:16"
+			time="00:04.764"
+			level="Failure"
+			category="Validation"
+			errimg=".\ChooseNo_26d0f2f2_1385a8ba_trace.jpg"
+			errthumb=".\ChooseNo_26d0f2f2_1385a8ba_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation' does not match the specified value (actual='Trade Tracker', expected='Trade tracker').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				itempath="?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation"
+				id="6feb4ff346e448138f0f1730043a66c2"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\ChooseNonTKShop_ShopOpen.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.827"
+			timeRelativeToTestModuleStartTime="00:04.827"
+			timeWallClock="17:08:16"
+			time="00:04.827"
+			level="Error"
+			category="Module"
+			errimg=".\ChooseNo_26d0f2f2_1385a8ba_trace.jpg"
+			errthumb=".\ChooseNo_26d0f2f2_1385a8ba_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation' does not match the specified value (actual='Trade Tracker', expected='Trade tracker').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass39_0.&lt;Execute>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Boolean exceptionOnFail)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)&#13;&#10;   at TradeTrackerProject.TestCases.Non_TK_ShopOpen.ChooseNonTKShop_ShopOpen.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\ChooseNonTKShop_ShopOpen.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\ChooseNonTKShop_ShopOpen.cs"
+				codeline="83"
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				itempath="?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation"
+				id="6feb4ff346e448138f0f1730043a66c2"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="7">
+			</metainfo>
+		</item>
+	</activity>
+</report>

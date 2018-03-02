@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1b119c4881252ad8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/16/2018 11:21:32 AM"
+		timestampiso="2018-02-16T06:21:32"
+		endtime="2/16/2018 11:21:55 AM"
+		timeoutfactor="1"
+		module="TK_Shop">
+		<detail>
+			TK_Shop
+		</detail>
+		<errormessage>
+			Injecting to another application requires INJECT_EVENTS permission
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.998"
+			timeRelativeToTestModuleStartTime="00:03.998"
+			timeWallClock="11:21:36"
+			time="00:03.998"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'pk.com.tradetracker' on device HUAWEI LUA-U22.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.984"
+			timeRelativeToTestModuleStartTime="00:14.984"
+			timeWallClock="11:21:47"
+			time="00:14.984"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Caption='WELCOME') on item 'PkComTradetracker.WELCOME'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='WELCOME']"
+				itempath="form[@title='MainScreen']//text[@caption='WELCOME']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.WELCOME"
+				id="8faea87759424591813103b458d2f4a0"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.578"
+			timeRelativeToTestModuleStartTime="00:16.578"
+			timeWallClock="11:21:48"
+			time="00:16.578"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Caption' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.WELCOME' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='WELCOME']"
+				itempath="form[@title='MainScreen']//text[@caption='WELCOME']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.WELCOME"
+				id="8faea87759424591813103b458d2f4a0"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.594"
+			timeRelativeToTestModuleStartTime="00:16.594"
+			timeWallClock="11:21:48"
+			time="00:16.594"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ButtonSubmit' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//button[@text=' Submit ']"
+				itempath="form[@title='MainScreen']//button[@text=' Submit ']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ButtonSubmit"
+				id="cf975b171c944e7684aeb45f85982b29"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.099"
+			timeRelativeToTestModuleStartTime="00:18.099"
+			timeWallClock="11:21:50"
+			time="00:18.099"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Caption='ROUTE LIST') on item 'PkComTradetracker.ROUTELIST'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']"
+				itempath="form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ROUTELIST"
+				id="7dbdf420c1d8420e80db944b39739d36"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.958"
+			timeRelativeToTestModuleStartTime="00:18.958"
+			timeWallClock="11:21:51"
+			time="00:18.958"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Caption' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.ROUTELIST' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']"
+				itempath="form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ROUTELIST"
+				id="7dbdf420c1d8420e80db944b39739d36"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.755"
+			timeRelativeToTestModuleStartTime="00:19.755"
+			timeWallClock="11:21:52"
+			time="00:19.755"
+			level="Info"
+			category="Validation"
+			errimg=".\TK_Shop2_b3003948_529b6b75_trace.jpg"
+			errthumb=".\TK_Shop2_b3003948_529b6b75_trace_thumb.jpg">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=480,Height=59}) on item 'PkComTradetracker.ShopsList_validation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='ShopsListScreen']/?/?/container[@containertype='Linear']/container[1]"
+				itempath="form[@title='ShopsListScreen']/?/?/container[@containertype='Linear']/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopsList_validation"
+				id="19d70285e63f49ad932eff040ae214f6"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.322"
+			timeRelativeToTestModuleStartTime="00:21.322"
+			timeWallClock="11:21:53"
+			time="00:21.322"
+			level="Success"
+			category="Validation"
+			errimg=".\TK_Shop2_b3003948_e1f03287_trace.jpg"
+			errthumb=".\TK_Shop2_b3003948_e1f03287_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ShopsList_validation' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.cs"
+				codeline="102"
+				loglvl="Success"
+				id="19d70285e63f49ad932eff040ae214f6"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='ShopsListScreen']/?/?/container[@containertype='Linear']/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopsList_validation"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.104"
+			timeRelativeToTestModuleStartTime="00:22.104"
+			timeWallClock="11:21:54"
+			time="00:22.104"
+			level="Error"
+			category="Module"
+			errimg=".\TK_Shop2_b3003948_f26ea81f_trace.jpg"
+			errthumb=".\TK_Shop2_b3003948_f26ea81f_trace_thumb.jpg">
+			<message>
+				Injecting to another application requires INJECT_EVENTS permission
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Plugin.Mobile.XmlRpc.XmlRpcProtocolChannel.Call(MethodCall mc, TimeSpan responseTimeout)
+   at Ranorex.Plugin.Mobile.Device.Channels.AppLogicChannel.Touch(String loc, Int32 elementIdentifier, Boolean isLongClick, Int32 duration)
+   at Ranorex.Plugin.Mobile.Device.Channels.AppLogicChannel.Touch(IElementWithId element, TouchEvent evt)
+   at Ranorex.Plugin.Mobile.RxIntegration.Elements.MobileFlavorElement.Touch(TouchEvent evt)
+   at Ranorex.Touch.Tap(Element element, Int32 pointer, Location location, Duration touchDuration)
+   at Ranorex.Adapter.Touch(Int32 pointer, Location location, Duration touchDuration, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Touch()
+   at TradeTrackerProject.TK_Shop.chooseTKShop() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.UserCode.cs:line 67
+   at TradeTrackerProject.TK_Shop.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.cs:line 105
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.UserCode.cs"
+				codeline="67"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

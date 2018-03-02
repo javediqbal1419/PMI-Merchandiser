@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7b55063fdc851bb"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/15/2018 3:23:19 PM"
+		timestampiso="2018-02-15T10:23:19"
+		endtime="2/15/2018 3:23:28 PM"
+		timeoutfactor="1"
+		module="TK_Shop">
+		<detail>
+			TK_Shop
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.063"
+			timeRelativeToTestModuleStartTime="00:04.063"
+			timeWallClock="15:23:24"
+			time="00:04.063"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopOpen_BWUStatus' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^PPOSMAllocatedOptionsList']//list[@rid='list']/container[@containertype='Relative']"
+				itempath="form[@title~'^PPOSMAllocatedOptionsList']//list[@rid='list']/container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_BWUStatus"
+				id="bca33c12eedd43cb94e6c328fced9f0e"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.cs"
+				codeline="82"
+				itemindex="195"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.589"
+			timeRelativeToTestModuleStartTime="00:06.589"
+			timeWallClock="15:23:26"
+			time="00:06.589"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopOpen_ValidateOKButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']/container[@rid='content']//button[@resourceid='R.string.yes']"
+				itempath="form[@title='Info']/container[@rid='content']//button[@resourceid='R.string.yes']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_ValidateOKButton"
+				id="1ff8d944ba4248f8b990a59c14c78874"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TK_Shop.cs"
+				codeline="86"
+				itemindex="196"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

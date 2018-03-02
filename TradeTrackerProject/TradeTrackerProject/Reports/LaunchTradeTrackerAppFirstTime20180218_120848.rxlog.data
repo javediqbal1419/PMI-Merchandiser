@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="255df3c64bac320"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/18/2018 12:09:08 PM"
+		timestampiso="2018-02-18T07:09:08"
+		endtime="2/18/2018 12:09:35 PM"
+		timeoutfactor="1"
+		module="LaunchTradeTrackerAppFirstTime">
+		<detail>
+			LaunchTradeTrackerAppFirstTime
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.125"
+			timeRelativeToTestModuleStartTime="00:04.125"
+			timeWallClock="12:09:13"
+			time="00:04.125"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'pk.com.tradetracker' on device HUAWEI LUA-U22.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.344"
+			timeRelativeToTestModuleStartTime="00:13.344"
+			timeWallClock="12:09:22"
+			time="00:13.344"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Caption='WELCOME') on item 'PkComTradetracker.WELCOME'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='WELCOME']"
+				itempath="form[@title='MainScreen']//text[@caption='WELCOME']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.WELCOME"
+				id="8faea87759424591813103b458d2f4a0"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.922"
+			timeRelativeToTestModuleStartTime="00:14.922"
+			timeWallClock="12:09:23"
+			time="00:14.922"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Caption' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.WELCOME' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='WELCOME']"
+				itempath="form[@title='MainScreen']//text[@caption='WELCOME']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.WELCOME"
+				id="8faea87759424591813103b458d2f4a0"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.938"
+			timeRelativeToTestModuleStartTime="00:14.938"
+			timeWallClock="12:09:23"
+			time="00:14.938"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.AndroidWidgetImageView' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']/container[@rid='content']/?/?/container[@containertype='Relative']/picture[1]"
+				itempath="form[@title='MainScreen']/container[@rid='content']/?/?/container[@containertype='Relative']/picture[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.AndroidWidgetImageView"
+				id="4e1cd5872642490ab44e288daa8d001f"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.672"
+			timeRelativeToTestModuleStartTime="00:16.672"
+			timeWallClock="12:09:25"
+			time="00:16.672"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=480,Height=854}) on item 'PkComTradetracker.ComPmiMainUtilsZoomImageView_TPOSMForTheCycle'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='PlanogramSliderActivity']/container[@rid='content']//picture"
+				itempath="form[@title='PlanogramSliderActivity']/container[@rid='content']//picture"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView_TPOSMForTheCycle"
+				id="66713f5869274678bf1cb1598308299e"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.172"
+			timeRelativeToTestModuleStartTime="00:19.172"
+			timeWallClock="12:09:28"
+			time="00:19.172"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView_TPOSMForTheCycle' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="95"
+				loglvl="Success"
+				id="66713f5869274678bf1cb1598308299e"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='PlanogramSliderActivity']/container[@rid='content']//picture"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView_TPOSMForTheCycle"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.172"
+			timeRelativeToTestModuleStartTime="00:19.172"
+			timeWallClock="12:09:28"
+			time="00:19.172"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{BACK}' press on 'PkComTradetracker'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']"
+				itempath="/mobileapp[@title='pk.com.tradetracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Self"
+				id="00944a9563944d02a7c48e58b9e61445"
+				timeout="30000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.841"
+			timeRelativeToTestModuleStartTime="00:20.841"
+			timeWallClock="12:09:29"
+			time="00:20.841"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ButtonSubmit' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//button[@text=' Submit ']"
+				itempath="form[@title='MainScreen']//button[@text=' Submit ']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ButtonSubmit"
+				id="cf975b171c944e7684aeb45f85982b29"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.732"
+			timeRelativeToTestModuleStartTime="00:23.732"
+			timeWallClock="12:09:32"
+			time="00:23.732"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Caption='ROUTE LIST') on item 'PkComTradetracker.ROUTELIST'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']"
+				itempath="form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ROUTELIST"
+				id="7dbdf420c1d8420e80db944b39739d36"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.060"
+			timeRelativeToTestModuleStartTime="00:25.060"
+			timeWallClock="12:09:34"
+			time="00:25.060"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Caption' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.ROUTELIST' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']"
+				itempath="form[@title='RouteListScreen']/container[@rid='content']//text[@caption='ROUTE LIST']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ROUTELIST"
+				id="7dbdf420c1d8420e80db944b39739d36"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="107"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.076"
+			timeRelativeToTestModuleStartTime="00:25.076"
+			timeWallClock="12:09:34"
+			time="00:25.076"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.List.Wednessday' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='RouteListScreen']//list[@rid='list']/container[3]"
+				itempath="container[3]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.List.Wednessday"
+				id="c6e0a8b919b4437a836c82ecaa1299f0"
+				timeout="90000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

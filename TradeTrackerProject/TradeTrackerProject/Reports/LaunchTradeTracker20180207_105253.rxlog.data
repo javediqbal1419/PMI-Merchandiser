@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="18c34a569aef0e30"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Qaise'r"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/7/2018 10:52:57 AM"
+		timestampiso="2018-02-07T05:52:57"
+		endtime="2/7/2018 10:53:06 AM"
+		timeoutfactor="1"
+		module="LaunchTradeTracker">
+		<detail>
+			LaunchTradeTracker
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.WELCOME' does not match the specified value (actual='WELCOME', expected='Welcome').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.491"
+			timeRelativeToTestModuleStartTime="00:00.491"
+			timeWallClock="10:52:58"
+			time="00:00.491"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'pk.com.tradetracker' on device HUAWEI LUA-U22.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.347"
+			timeRelativeToTestModuleStartTime="00:07.347"
+			timeWallClock="10:53:05"
+			time="00:07.347"
+			level="Info"
+			category="Validation"
+			errimg=".\LaunchTr_bfb0fa71_093d9f9c_trace.jpg"
+			errthumb=".\LaunchTr_bfb0fa71_093d9f9c_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Welcome') on item 'PkComTradetracker.WELCOME'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='WELCOME']"
+				itempath="form[@title='MainScreen']//text[@caption='WELCOME']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.WELCOME"
+				id="8faea87759424591813103b458d2f4a0"
+				timeout="60000"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.694"
+			timeRelativeToTestModuleStartTime="00:08.694"
+			timeWallClock="10:53:06"
+			time="00:08.694"
+			level="Failure"
+			category="Validation"
+			errimg=".\LaunchTr_bfb0fa71_decce8ca_trace.jpg"
+			errthumb=".\LaunchTr_bfb0fa71_decce8ca_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.WELCOME' does not match the specified value (actual='WELCOME', expected='Welcome').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='WELCOME']"
+				itempath="form[@title='MainScreen']//text[@caption='WELCOME']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.WELCOME"
+				id="8faea87759424591813103b458d2f4a0"
+				timeout="60000"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="87"
+				loglvl="Failure"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.704"
+			timeRelativeToTestModuleStartTime="00:08.704"
+			timeWallClock="10:53:06"
+			time="00:08.704"
+			level="Error"
+			category="Module"
+			errimg=".\LaunchTr_bfb0fa71_decce8ca_trace.jpg"
+			errthumb=".\LaunchTr_bfb0fa71_decce8ca_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.WELCOME' does not match the specified value (actual='WELCOME', expected='Welcome').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass39_0.&lt;Execute>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)&#13;&#10;   at TradeTrackerProject.LaunchTradeTracker.Ranorex.Core.Testing.ITestModule.Run() in d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs:line 87&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="87"
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='WELCOME']"
+				itempath="form[@title='MainScreen']//text[@caption='WELCOME']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.WELCOME"
+				id="8faea87759424591813103b458d2f4a0"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

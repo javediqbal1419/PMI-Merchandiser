@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3955668e3665f4c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/9/2018 6:27:26 PM"
+		timestampiso="2018-02-09T13:27:26"
+		endtime="2/9/2018 6:27:30 PM"
+		timeoutfactor="1"
+		module="LaunchTradeTracker">
+		<detail>
+			LaunchTradeTracker
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.734"
+			timeRelativeToTestModuleStartTime="00:01.750"
+			timeWallClock="18:27:28"
+			time="00:01.734"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270&#176;)' starting from 'Center' with distance '100' with swipe duration'500ms' and step count '0' on item 'PkComTradetracker.TPOSM_MainScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^TouchPointInformationColl']/container[@rid='content']/?/?/container[@containertype='ScrollView']/container[@containertype='Linear']"
+				itempath="form[@title~'^TouchPointInformationColl']/container[@rid='content']/?/?/container[@containertype='ScrollView']/container[@containertype='Linear']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TPOSM_MainScreen"
+				id="eb32fdfbfe00445fb6ab066d8ed10aa7"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="82"
+				itemindex="24"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

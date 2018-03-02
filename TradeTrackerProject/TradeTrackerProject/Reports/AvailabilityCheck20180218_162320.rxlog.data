@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c38ff09e7b4094c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/18/2018 4:23:35 PM"
+		timestampiso="2018-02-18T11:23:35"
+		endtime="2/18/2018 4:23:58 PM"
+		timeoutfactor="1"
+		module="AvailabilityCheck">
+		<detail>
+			AvailabilityCheck
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.747"
+			timeRelativeToTestModuleStartTime="00:16.747"
+			timeWallClock="16:23:52"
+			time="00:16.747"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{BACK}' press on 'PkComTradetracker'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']"
+				itempath="/mobileapp[@title='pk.com.tradetracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Self"
+				id="00944a9563944d02a7c48e58b9e61445"
+				timeout="30000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\AvailabilityCheck.cs"
+				codeline="85"
+				itemindex="36"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.200"
+			timeRelativeToTestModuleStartTime="00:18.200"
+			timeWallClock="16:23:54"
+			time="00:18.200"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ChangeOptionNoButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']/container[@rid='content']//button[@rid='button2']"
+				itempath="form[@title='Info']/container[@rid='content']//button[@rid='button2']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ChangeOptionNoButton"
+				id="8fa68bb54cae46e69a9ba589a68c53a3"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\AvailabilityCheck.cs"
+				codeline="89"
+				itemindex="37"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.029"
+			timeRelativeToTestModuleStartTime="00:20.029"
+			timeWallClock="16:23:55"
+			time="00:20.029"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{BACK}' press on 'PkComTradetracker'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']"
+				itempath="/mobileapp[@title='pk.com.tradetracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Self"
+				id="00944a9563944d02a7c48e58b9e61445"
+				timeout="30000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\AvailabilityCheck.cs"
+				codeline="93"
+				itemindex="38"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.670"
+			timeRelativeToTestModuleStartTime="00:20.670"
+			timeWallClock="16:23:56"
+			time="00:20.670"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ChangeOptionYesButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']/container[@rid='content']//button[@rid='button1']"
+				itempath="form[@title='Info']/container[@rid='content']//button[@rid='button1']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ChangeOptionYesButton"
+				id="27ff7d6310554495a92c4449d2967b50"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\AvailabilityCheck.cs"
+				codeline="97"
+				itemindex="39"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

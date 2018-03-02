@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="147bff947a008740"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/19/2018 3:12:28 PM"
+		timestampiso="2018-02-19T10:12:28"
+		endtime="2/19/2018 3:13:03 PM"
+		timeoutfactor="1"
+		module="LoadTPOSM">
+		<detail>
+			LoadTPOSM
+		</detail>
+		<errormessage>
+			Setting attribute 'Text' failed on element '{Text:android.widget.EditText}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.520"
+			timeRelativeToTestModuleStartTime="00:29.536"
+			timeWallClock="15:12:57"
+			time="00:29.520"
+			level="Error"
+			category="Module">
+			<message>
+				Setting attribute 'Text' failed on element '{Text:android.widget.EditText}'.<br/>Device communication timed out. Either no instrumented application is running on the device or the device was not able to process the request within the specified timeout of '00:00:05'. Check that an instrumented application is running on the device or try to increase the timeout.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.SetAttributeValue(String name, Object value)
+   at Ranorex.Core.Element.SetAttributeValue(String name, String value)
+   at TradeTrackerProject.ConstantUserCode.UserCodeCollection.loadTPOSMFields() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs:line 200
+   at TradeTrackerProject.TestCases.LoadingTPOSM.LoadTPOSM.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LoadingTPOSM\LoadTPOSM.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs"
+				codeline="200"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

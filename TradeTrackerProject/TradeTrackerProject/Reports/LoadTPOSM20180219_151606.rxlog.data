@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="79227974cd6c3da"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/19/2018 3:16:21 PM"
+		timestampiso="2018-02-19T10:16:21"
+		endtime="2/19/2018 3:17:43 PM"
+		timeoutfactor="1"
+		module="LoadTPOSM">
+		<detail>
+			LoadTPOSM
+		</detail>
+		<errormessage>
+			Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="01:14.487"
+			timeRelativeToTestModuleStartTime="01:14.487"
+			timeWallClock="15:17:35"
+			time="01:14.487"
+			level="Error"
+			category="Module">
+			<message>
+				Index was out of range. Must be non-negative and less than the size of the collection.<br/>Parameter name: index
+			</message>
+			<metainfo
+				stacktrace="   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at TradeTrackerProject.ConstantUserCode.UserCodeCollection.loadTPOSMFields() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs:line 199
+   at TradeTrackerProject.TestCases.LoadingTPOSM.LoadTPOSM.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\LoadingTPOSM\LoadTPOSM.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs"
+				codeline="199"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

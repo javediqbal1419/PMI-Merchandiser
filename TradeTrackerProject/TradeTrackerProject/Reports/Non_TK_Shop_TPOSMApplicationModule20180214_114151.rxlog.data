@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="cc467c7ffc87210"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/14/2018 11:42:06 AM"
+		timestampiso="2018-02-14T06:42:06"
+		endtime="2/14/2018 11:42:12 AM"
+		timeoutfactor="1"
+		module="Non_TK_Shop_TPOSMApplicationModule">
+		<detail>
+			Non_TK_Shop_TPOSMApplicationModule
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.Non_TK_Shop_Sticker8x18MLBDeployed_validation' does not match the specified value (actual='Sticker 8x18 (MLB) Deployed ?', expected='Sticker 8&#10005;18 (MLB) Deployed ?').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.654"
+			timeRelativeToTestModuleStartTime="00:04.655"
+			timeWallClock="11:42:10"
+			time="00:04.654"
+			level="Info"
+			category="Validation"
+			errimg=".\Non_TK_S_be7ae794_1c385759_trace.jpg"
+			errthumb=".\Non_TK_S_be7ae794_1c385759_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Sticker 8&#10005;18 (MLB) Deployed ?') on item 'PkComTradetracker.Non_TK_Shop_Sticker8x18MLBDeployed_validation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^TouchPointRemarksListScre']//text[@caption~'^Sticker\ 8x18\ \(MLB\)\ Deploy']"
+				itempath="form[@title~'^TouchPointRemarksListScre']//text[@caption~'^Sticker\ 8x18\ \(MLB\)\ Deploy']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Non_TK_Shop_Sticker8x18MLBDeployed_validation"
+				id="1fd0d8cd45cc48e29441c1e1ab109214"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\Non_TK_Shop_TPOSMApplicationModule.cs"
+				codeline="82"
+				itemindex="74"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.339"
+			timeRelativeToTestModuleStartTime="00:05.340"
+			timeWallClock="11:42:11"
+			time="00:05.339"
+			level="Failure"
+			category="Validation"
+			errimg=".\Non_TK_S_be7ae794_dfe5d57c_trace.jpg"
+			errthumb=".\Non_TK_S_be7ae794_dfe5d57c_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.Non_TK_Shop_Sticker8x18MLBDeployed_validation' does not match the specified value (actual='Sticker 8x18 (MLB) Deployed ?', expected='Sticker 8&#10005;18 (MLB) Deployed ?').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^TouchPointRemarksListScre']//text[@caption~'^Sticker\ 8x18\ \(MLB\)\ Deploy']"
+				itempath="form[@title~'^TouchPointRemarksListScre']//text[@caption~'^Sticker\ 8x18\ \(MLB\)\ Deploy']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Non_TK_Shop_Sticker8x18MLBDeployed_validation"
+				id="1fd0d8cd45cc48e29441c1e1ab109214"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\Non_TK_Shop_TPOSMApplicationModule.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="74">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.443"
+			timeRelativeToTestModuleStartTime="00:05.445"
+			timeWallClock="11:42:11"
+			time="00:05.443"
+			level="Error"
+			category="Module"
+			errimg=".\Non_TK_S_be7ae794_dfe5d57c_trace.jpg"
+			errthumb=".\Non_TK_S_be7ae794_dfe5d57c_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.Non_TK_Shop_Sticker8x18MLBDeployed_validation' does not match the specified value (actual='Sticker 8x18 (MLB) Deployed ?', expected='Sticker 8&#10005;18 (MLB) Deployed ?').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass39_0.&lt;Execute>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Boolean exceptionOnFail)&#13;&#10;   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)&#13;&#10;   at TradeTrackerProject.Non_TK_Shop_TPOSMApplicationModule.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\Non_TK_Shop_TPOSMApplicationModule.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\Non_TK_Shop_TPOSMApplicationModule.cs"
+				codeline="83"
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^TouchPointRemarksListScre']//text[@caption~'^Sticker\ 8x18\ \(MLB\)\ Deploy']"
+				itempath="form[@title~'^TouchPointRemarksListScre']//text[@caption~'^Sticker\ 8x18\ \(MLB\)\ Deploy']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Non_TK_Shop_Sticker8x18MLBDeployed_validation"
+				id="1fd0d8cd45cc48e29441c1e1ab109214"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="74">
+			</metainfo>
+		</item>
+	</activity>
+</report>

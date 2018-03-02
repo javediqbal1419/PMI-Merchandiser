@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="131be74d133c77f8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/13/2018 4:51:33 PM"
+		timestampiso="2018-02-13T11:51:33"
+		endtime="2/13/2018 4:51:39 PM"
+		timeoutfactor="1"
+		module="Non_TK_Shop_TPOSMApplicationModule">
+		<detail>
+			Non_TK_Shop_TPOSMApplicationModule
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.601"
+			timeRelativeToTestModuleStartTime="00:04.605"
+			timeWallClock="16:51:37"
+			time="00:04.601"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.Non_TK_Shop_KeyMessageCommunication_ChangeOptionButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']/container[@rid='content']//button[@rid='button1']"
+				itempath="form[@title='Info']/container[@rid='content']//button[@rid='button1']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Non_TK_Shop_KeyMessageCommunication_ChangeOptionButton"
+				id="27ff7d6310554495a92c4449d2967b50"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\Non_TK_Shop_TPOSMApplicationModule.cs"
+				codeline="82"
+				itemindex="25"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

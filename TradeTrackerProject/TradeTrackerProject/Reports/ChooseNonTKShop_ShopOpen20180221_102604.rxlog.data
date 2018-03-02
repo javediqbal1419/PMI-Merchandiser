@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="52798096432a10d"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="LIVINGROOM"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="2/21/2018 10:26:20 AM"
+		timestampiso="2018-02-21T05:26:20"
+		endtime="2/21/2018 10:26:36 AM"
+		timeoutfactor="1"
+		module="ChooseNonTKShop_ShopOpen">
+		<detail>
+			ChooseNonTKShop_ShopOpen
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.555"
+			timeRelativeToTestModuleStartTime="00:10.571"
+			timeWallClock="10:26:30"
+			time="00:10.555"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				itempath="?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation"
+				id="6feb4ff346e448138f0f1730043a66c2"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs"
+				codeline="376"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="92d1f5a5935b044"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/13/2018 4:40:14 PM"
+		timestampiso="2018-02-13T11:40:14"
+		endtime="2/13/2018 4:40:19 PM"
+		timeoutfactor="1"
+		module="Non_TK_Shop_TPOSMApplicationModule">
+		<detail>
+			Non_TK_Shop_TPOSMApplicationModule
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.932"
+			timeRelativeToTestModuleStartTime="00:03.932"
+			timeWallClock="16:40:18"
+			time="00:03.932"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=480,Height=74}) on item 'PkComTradetracker.Non_TK_Shop_TPOSM_validation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				itempath="form[@title='TouchPointListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Non_TK_Shop_TPOSM_validation"
+				id="6415d1632ec34916b7f305df67843491"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\Non_TK_Shop_TPOSMApplicationModule.cs"
+				codeline="82"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.885"
+			timeRelativeToTestModuleStartTime="00:04.885"
+			timeWallClock="16:40:19"
+			time="00:04.885"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.Non_TK_Shop_TPOSM_validation' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\Non_TK_Shop_TPOSMApplicationModule.cs"
+				codeline="83"
+				loglvl="Success"
+				id="6415d1632ec34916b7f305df67843491"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Non_TK_Shop_TPOSM_validation"
+				itemindex="20">
+			</metainfo>
+		</item>
+	</activity>
+</report>

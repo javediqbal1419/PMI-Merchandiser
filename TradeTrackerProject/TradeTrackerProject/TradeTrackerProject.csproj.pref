@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="TradeTrackerProject.ConstantUserCode.UserCodeCollection.checkShopVisited()" />
+      <Element value="TradeTrackerProject.ConstantUserCode.UserCodeCollection.CheckIn_ListView()" />
+      <Element value="TradeTrackerProject.ConstantUserCode.UserCodeCollection.validateTradeTracker()" />
+      <Element value="TradeTrackerProject.ConstantUserCode.UserCodeCollection.visitShelfDisplayRemarks()" />
+      <Element value="TradeTrackerProject.ConstantUserCode.UserCodeCollection.loadTKComplianceCheck()" />
+      <Element value="TradeTrackerProject.ConstantUserCode.UserCodeCollection.setPlanogram()" />
+    </Array>
+  </Properties>
+</Properties>

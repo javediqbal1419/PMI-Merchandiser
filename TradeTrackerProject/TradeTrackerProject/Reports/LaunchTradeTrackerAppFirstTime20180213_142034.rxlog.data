@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="27b5a409fe526438"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="LIVINGROOM"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="2/13/2018 2:20:50 PM"
+		timestampiso="2018-02-13T09:20:50"
+		endtime="2/13/2018 2:20:56 PM"
+		timeoutfactor="1"
+		module="LaunchTradeTrackerAppFirstTime">
+		<detail>
+			LaunchTradeTrackerAppFirstTime
+		</detail>
+		<errormessage>
+			Cannot start mobile app 'pk.com.tradetracker' because there is no device with name 'None' in the list of configured devices.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.798"
+			timeRelativeToTestModuleStartTime="00:05.798"
+			timeWallClock="14:20:55"
+			time="00:05.798"
+			level="Info"
+			category="Application"
+			errimg=".\LaunchTr_3eda48a0_397534f1_trace.jpg"
+			errthumb=".\LaunchTr_3eda48a0_397534f1_trace_thumb.jpg">
+			<message>
+				Run mobile app 'pk.com.tradetracker' on device None.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.985"
+			timeRelativeToTestModuleStartTime="00:05.985"
+			timeWallClock="14:20:56"
+			time="00:05.985"
+			level="Error"
+			category="Module"
+			errimg=".\LaunchTr_3eda48a0_6d43b25d_trace.jpg"
+			errthumb=".\LaunchTr_3eda48a0_6d43b25d_trace_thumb.jpg">
+			<message>
+				Cannot start mobile app 'pk.com.tradetracker' because there is no device with name 'None' in the list of configured devices.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.RunMobileApp(String deviceDisplayName, String appName, Boolean resetInitialState)
+   at TradeTrackerProject.LaunchTradeTrackerAppFirstTime.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\LaunchTradeTrackerAppFirstTime.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\LaunchTradeTrackerAppFirstTime.cs"
+				codeline="83"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

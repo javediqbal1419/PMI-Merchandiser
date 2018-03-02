@@ -1,0 +1,24 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{CB8AF5C8-17CB-40A4-A28E-25B317A07CCB}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>Modules</string>
+      <string>{E1D598BF-501C-4270-9349-A8F29AC6D209}</string>
+      <string>..</string>
+      <string>..\..</string>
+      <string>..\..\..</string>
+      <string>..\..\..\Ranorex_PDF_Lib</string>
+      <string>c592e09d-c6ca-4fd0-a2fc-a3d6be58c8fa</string>
+      <string>fb7180de-f7e7-4ad5-b60a-6c39a967c13e</string>
+      <string>a79e205e-90fb-4d8e-9c92-e2fbefa2108a</string>
+      <string>82f21b9f-5905-463a-bb0f-a6503eedb1d9</string>
+      <string>de6dd63e-6e17-43ec-8b71-ce99f93719bd</string>
+      <string>ac31a361-54a8-4e54-8521-de5cc977f67c</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution TradeTrackerProject[TradeTrackerProject[]]]&#xD;&#xA;Solution TradeTrackerProject\TradeTrackerProject\TestCases&#xD;&#xA;Solution TradeTrackerProject" />
+  <StartupProject value="{E1D598BF-501C-4270-9349-A8F29AC6D209}" />
+</Properties>

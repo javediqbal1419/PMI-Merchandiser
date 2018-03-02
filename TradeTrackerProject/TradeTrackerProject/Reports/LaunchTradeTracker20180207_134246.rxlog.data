@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="e0a0a4636d156c0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Qaise'r"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/7/2018 1:42:49 PM"
+		timestampiso="2018-02-07T08:42:49"
+		endtime="2/7/2018 1:44:02 PM"
+		timeoutfactor="1"
+		module="LaunchTradeTracker">
+		<detail>
+			LaunchTradeTracker
+		</detail>
+		<errormessage>
+			Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView' does not match the specified image (Failed to find item 'TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView'. No element found for path '/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='Hassan']' within 1m.).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.501"
+			timeRelativeToTestModuleStartTime="00:00.502"
+			timeWallClock="13:42:50"
+			time="00:00.501"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'pk.com.tradetracker' on device HUAWEI LUA-U22.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.154"
+			timeRelativeToTestModuleStartTime="00:08.155"
+			timeWallClock="13:42:57"
+			time="00:08.154"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='WELCOME') on item 'PkComTradetracker.WELCOME'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='WELCOME']"
+				itempath="form[@title='MainScreen']//text[@caption='WELCOME']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.WELCOME"
+				id="8faea87759424591813103b458d2f4a0"
+				timeout="60000"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.610"
+			timeRelativeToTestModuleStartTime="00:09.611"
+			timeWallClock="13:42:59"
+			time="00:09.610"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.WELCOME' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='WELCOME']"
+				itempath="form[@title='MainScreen']//text[@caption='WELCOME']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.WELCOME"
+				id="8faea87759424591813103b458d2f4a0"
+				timeout="60000"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.612"
+			timeRelativeToTestModuleStartTime="00:09.613"
+			timeWallClock="13:42:59"
+			time="00:09.612"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.AndroidWidgetImageView' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']/container[@rid='content']/?/?/container[@containertype='Relative']/picture[1]"
+				itempath="form[@title='MainScreen']/container[@rid='content']/?/?/container[@containertype='Relative']/picture[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.AndroidWidgetImageView"
+				id="4e1cd5872642490ab44e288daa8d001f"
+				timeout="60000"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.196"
+			timeRelativeToTestModuleStartTime="00:11.197"
+			timeWallClock="13:43:00"
+			time="00:11.196"
+			level="Info"
+			category="Validation"
+			errimg=".\LaunchTr_342af9d1_b0b53114_trace.jpg"
+			errthumb=".\LaunchTr_342af9d1_b0b53114_trace_thumb.jpg">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=480,Height=854}) on item 'PkComTradetracker.ComPmiMainUtilsZoomImageView'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='Hassan']"
+				itempath="form[@title='MainScreen']//text[@caption='Hassan']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView"
+				id="9c8a378e45d642a48b69102334238e50"
+				timeout="60000"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:11.329"
+			timeRelativeToTestModuleStartTime="01:11.330"
+			timeWallClock="13:44:01"
+			time="01:11.329"
+			level="Failure"
+			category="Validation"
+			errimg=".\LaunchTr_342af9d1_378234e4_trace.jpg"
+			errthumb=".\LaunchTr_342af9d1_378234e4_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView' does not match the specified image (Failed to find item 'TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView'. No element found for path '/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='Hassan']' within 1m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='Hassan']"
+				itempath="form[@title='MainScreen']//text[@caption='Hassan']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView"
+				id="9c8a378e45d642a48b69102334238e50"
+				timeout="60000"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="95"
+				loglvl="Failure"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:11.343"
+			timeRelativeToTestModuleStartTime="01:11.344"
+			timeWallClock="13:44:01"
+			time="01:11.343"
+			level="Error"
+			category="Module"
+			errimg=".\LaunchTr_342af9d1_378234e4_trace.jpg"
+			errthumb=".\LaunchTr_342af9d1_378234e4_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView' does not match the specified image (Failed to find item 'TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView'. No element found for path '/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='Hassan']' within 1m.).<br/>Failed to find item 'TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView'.<br/>No element found for path '/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='Hassan']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.CompareImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at TradeTrackerProject.LaunchTradeTracker.Ranorex.Core.Testing.ITestModule.Run() in d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="95"
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainScreen']//text[@caption='Hassan']"
+				itempath="form[@title='MainScreen']//text[@caption='Hassan']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ComPmiMainUtilsZoomImageView"
+				id="9c8a378e45d642a48b69102334238e50"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

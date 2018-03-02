@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="18b6fdbb3e3573cc"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/16/2018 3:22:12 PM"
+		timestampiso="2018-02-16T10:22:12"
+		endtime="2/16/2018 3:22:18 PM"
+		timeoutfactor="1"
+		module="ShopOtherOptions">
+		<detail>
+			ShopOtherOptions
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.473"
+			timeRelativeToTestModuleStartTime="00:04.481"
+			timeWallClock="15:22:17"
+			time="00:04.473"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='SHOP REMARKS') on item 'PkComTradetracker.ShopkeeperDidNotAllowRemarksListScreen.SHOPREMARKS_validation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^ShopkeeperDidNotAllowRema']/container[@rid='content']//text[@caption='SHOP REMARKS']"
+				itempath="container[@rid='content']//text[@caption='SHOP REMARKS']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopkeeperDidNotAllowRemarksListScreen.SHOPREMARKS_validation"
+				id="7609c5d25fd34ccd9be3ea2721f17085"
+				timeout="90000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\ShopOtherOptions.cs"
+				codeline="82"
+				itemindex="69"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.241"
+			timeRelativeToTestModuleStartTime="00:05.249"
+			timeWallClock="15:22:18"
+			time="00:05.241"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.ShopkeeperDidNotAllowRemarksListScreen.SHOPREMARKS_validation' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^ShopkeeperDidNotAllowRema']/container[@rid='content']//text[@caption='SHOP REMARKS']"
+				itempath="container[@rid='content']//text[@caption='SHOP REMARKS']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopkeeperDidNotAllowRemarksListScreen.SHOPREMARKS_validation"
+				id="7609c5d25fd34ccd9be3ea2721f17085"
+				timeout="90000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\ShopOtherOptions.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="69">
+			</metainfo>
+		</item>
+	</activity>
+</report>

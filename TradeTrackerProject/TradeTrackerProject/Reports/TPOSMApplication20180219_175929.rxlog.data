@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="3793a8d137801ee4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/19/2018 5:59:46 PM"
+		timestampiso="2018-02-19T12:59:46"
+		endtime="2/19/2018 6:00:00 PM"
+		timeoutfactor="1"
+		module="TPOSMApplication">
+		<detail>
+			TPOSMApplication
+		</detail>
+		<errormessage>
+			Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.933"
+			timeRelativeToTestModuleStartTime="00:11.933"
+			timeWallClock="17:59:57"
+			time="00:11.933"
+			level="Error"
+			category="Module"
+			errimg=".\TPOSMApp_d6293029_93fa9ade_trace.jpg"
+			errthumb=".\TPOSMApp_d6293029_93fa9ade_trace_thumb.jpg">
+			<message>
+				Index was out of range. Must be non-negative and less than the size of the collection.<br/>Parameter name: index
+			</message>
+			<metainfo
+				stacktrace="   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at TradeTrackerProject.ConstantUserCode.UserCodeCollection.visitAllTPOSM() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs:line 221
+   at TradeTrackerProject.TestCases.Non_TK_ShopOpen.TPOSMApplication.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\TPOSMApplication.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs"
+				codeline="221"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

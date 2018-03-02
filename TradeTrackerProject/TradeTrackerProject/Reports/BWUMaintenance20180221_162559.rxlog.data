@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6e5098f1ae557d8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/21/2018 4:26:17 PM"
+		timestampiso="2018-02-21T11:26:17"
+		endtime="2/21/2018 4:26:23 PM"
+		timeoutfactor="1"
+		module="BWUMaintenance">
+		<detail>
+			BWUMaintenance
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.126"
+			timeRelativeToTestModuleStartTime="00:04.141"
+			timeWallClock="16:26:22"
+			time="00:04.126"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=480,Height=74}) on item 'PkComTradetracker.ShopOpen_BWUMaintenance_validation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='BackWallListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				itempath="form[@title='BackWallListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_BWUMaintenance_validation"
+				id="f19a5eab3d85409c95e43ed04f457499"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\BWUMaintenance.cs"
+				codeline="82"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.419"
+			timeRelativeToTestModuleStartTime="00:05.434"
+			timeWallClock="16:26:23"
+			time="00:05.419"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_BWUMaintenance_validation' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\BWUMaintenance.cs"
+				codeline="83"
+				loglvl="Success"
+				id="f19a5eab3d85409c95e43ed04f457499"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='BackWallListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_BWUMaintenance_validation"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

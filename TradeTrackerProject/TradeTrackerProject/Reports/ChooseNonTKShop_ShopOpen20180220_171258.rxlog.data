@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="124f0edb7d4c410a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/20/2018 5:13:14 PM"
+		timestampiso="2018-02-20T12:13:14"
+		endtime="2/20/2018 5:13:32 PM"
+		timeoutfactor="1"
+		module="ChooseNonTKShop_ShopOpen">
+		<detail>
+			ChooseNonTKShop_ShopOpen
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.093"
+			timeRelativeToTestModuleStartTime="00:04.093"
+			timeWallClock="17:13:18"
+			time="00:04.093"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Trade Tracker') on item 'PkComTradetracker.TradeTracker_validation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				itempath="?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation"
+				id="6feb4ff346e448138f0f1730043a66c2"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\ChooseNonTKShop_ShopOpen.cs"
+				codeline="82"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.696"
+			timeRelativeToTestModuleStartTime="00:04.696"
+			timeWallClock="17:13:19"
+			time="00:04.696"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				itempath="?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation"
+				id="6feb4ff346e448138f0f1730043a66c2"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\ChooseNonTKShop_ShopOpen.cs"
+				codeline="83"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.712"
+			timeRelativeToTestModuleStartTime="00:04.712"
+			timeWallClock="17:13:19"
+			time="00:04.712"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopOpen_AndroidWidgetImageView_MapCheckIn' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='GpsCoordinates']/container[@rid='content']//picture"
+				itempath="form[@title='GpsCoordinates']/container[@rid='content']//picture"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_AndroidWidgetImageView_MapCheckIn"
+				id="3335a41576054015904c84b74378b258"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\ChooseNonTKShop_ShopOpen.cs"
+				codeline="86"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.983"
+			timeRelativeToTestModuleStartTime="00:05.983"
+			timeWallClock="17:13:20"
+			time="00:05.983"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopOpen' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container[@rid='content']//list[@rid='list']/container[1]"
+				itempath="form[@title='']/container[@rid='content']//list[@rid='list']/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen"
+				id="162a940172884baaa83d621617e0fae3"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\ChooseNonTKShop_ShopOpen.cs"
+				codeline="90"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.531"
+			timeRelativeToTestModuleStartTime="00:07.531"
+			timeWallClock="17:13:22"
+			time="00:07.531"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopOpen' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container[@rid='content']//list[@rid='list']/container[1]"
+				itempath="form[@title='']/container[@rid='content']//list[@rid='list']/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen"
+				id="162a940172884baaa83d621617e0fae3"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\ChooseNonTKShop_ShopOpen.cs"
+				codeline="94"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.156"
+			timeRelativeToTestModuleStartTime="00:16.156"
+			timeWallClock="17:13:31"
+			time="00:16.156"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.TPOSM_ButtonDone' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='CameraActivity']/container[@rid='content']//button[@text='  Done  ']"
+				itempath="form[@title='CameraActivity']/container[@rid='content']//button[@text='  Done  ']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TPOSM_ButtonDone"
+				id="663e0cad093a41f6847a4a75431895c2"
+				timeout="40000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\Non-TK ShopOpen\ChooseNonTKShop_ShopOpen.cs"
+				codeline="101"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

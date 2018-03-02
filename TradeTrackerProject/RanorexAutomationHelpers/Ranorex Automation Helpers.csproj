@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{CB8AF5C8-17CB-40A4-A28E-25B317A07CCB}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Ranorex_Automation_Helpers</RootNamespace>
+    <AssemblyName>Ranorex Automation Helpers</AssemblyName>
+    <RanorexVersion>8.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.PDF">
+      <HintPath>..\packages\Ranorex.ReportToPDF.1.0.11\lib\net40\Ranorex.PDF.exe</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <id>014c8c51-960c-4002-98a6-bcfd5163e05a</id>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Modules\EmailModule.cs">
+      <id>d8b61a3a-a622-4e58-8641-8f9d01a1c388</id>
+    </Compile>
+    <Compile Include="Modules\ReportToPDFModule.cs">
+      <id>7ae99e7e-699c-457b-9248-6152408d1cf1</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\DragNDropLibrary.cs">
+      <id>7a8fc3db-38c9-4e76-a069-c0a7d96ea121</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\EmailLibrary.cs">
+      <id>003681eb-1f25-4d48-ad73-f46fbc2341df</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\FileLibrary.cs">
+      <id>b6b54f86-b946-49d2-adfa-85a8cb55d717</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\PopupWatcherLibrary.cs">
+      <id>b5353b1c-399d-4a3c-a2e5-c10f0588822f</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\StringLibrary.cs">
+      <id>f3585e53-8387-4895-aeec-298fc9753270</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\SystemLibrary.cs">
+      <id>6f864ed4-50cc-43d7-9f4f-cfb9c2f89614</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\ValidationLibrary.cs">
+      <id>666bd08c-15f8-42ab-8c33-18bbf5bc4a7d</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\WebLibrary.cs">
+      <id>cfa3cd4c-2caa-4a87-946e-49a1c8cad6a3</id>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

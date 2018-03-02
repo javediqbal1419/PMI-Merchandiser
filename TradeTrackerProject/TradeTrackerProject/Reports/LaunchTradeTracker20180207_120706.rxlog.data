@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="c9be3451c57f1b8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Qaise'r"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/7/2018 12:07:09 PM"
+		timestampiso="2018-02-07T07:07:09"
+		endtime="2/7/2018 12:07:46 PM"
+		timeoutfactor="1"
+		module="LaunchTradeTracker">
+		<detail>
+			LaunchTradeTracker
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.523"
+			timeRelativeToTestModuleStartTime="00:00.524"
+			timeWallClock="12:07:10"
+			time="00:00.523"
+			level="Info"
+			category="Touch"
+			errimg=".\LaunchTr_d8cdb327_8fd3da84_trace.jpg"
+			errthumb=".\LaunchTr_d8cdb327_8fd3da84_trace_thumb.jpg">
+			<message>
+				Touch item 'PkComTradetracker.List1.BWUs_Info' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='BwuUnitListScreen']//list[@rid='list']/container[1]"
+				itempath="container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.List1.BWUs_Info"
+				id="24017d40fd7b4e6191b76f8e69ee1c2a"
+				timeout="90000"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="82"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.023"
+			timeRelativeToTestModuleStartTime="00:05.024"
+			timeWallClock="12:07:14"
+			time="00:05.023"
+			level="Info"
+			category="Validation"
+			errimg=".\LaunchTr_d8cdb327_8fd3da84_trace.jpg"
+			errthumb=".\LaunchTr_d8cdb327_8fd3da84_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Caption='BWUs Info:') on item 'PkComTradetracker.List1.BWUsInfo_text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='BwuUnitListScreen']//list[@rid='list']/?/?/text[@caption='BWUs Info:']"
+				itempath="?/?/text[@caption='BWUs Info:']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.List1.BWUsInfo_text"
+				id="30b6ed616702454e986a61d88750db76"
+				timeout="90000"
+				codefile="d:\TradeTracker\TradeTrackerProject\TradeTrackerProject\LaunchTradeTracker.cs"
+				codeline="86"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.141"
+			timeRelativeToTestModuleStartTime="00:36.142"
+			timeWallClock="12:07:45"
+			time="00:36.141"
+			level="Error"
+			category="User"
+			errimg=".\LaunchTr_d8cdb327_28ceaa3e_trace.jpg"
+			errthumb=".\LaunchTr_d8cdb327_28ceaa3e_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2588ee73dd54bc7e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/21/2018 4:11:15 PM"
+		timestampiso="2018-02-21T11:11:15"
+		endtime="2/21/2018 4:16:25 PM"
+		timeoutfactor="1"
+		module="ChooseTKShop">
+		<detail>
+			ChooseTKShop
+		</detail>
+		<errormessage>
+			Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_BWUMaintenance_validation' does not contain the specified image.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.000"
+			timeRelativeToTestModuleStartTime="00:04.000"
+			timeWallClock="16:11:19"
+			time="00:04.000"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=480,Height=59}) on item 'PkComTradetracker.ShopsList_validation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='ShopsListScreen']/?/?/container[@containertype='Linear']/container[1]"
+				itempath="form[@title='ShopsListScreen']/?/?/container[@containertype='Linear']/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopsList_validation"
+				id="19d70285e63f49ad932eff040ae214f6"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\ChooseTKShop.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.312"
+			timeRelativeToTestModuleStartTime="00:06.312"
+			timeWallClock="16:11:21"
+			time="00:06.312"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ShopsList_validation' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\ChooseTKShop.cs"
+				codeline="83"
+				loglvl="Success"
+				id="19d70285e63f49ad932eff040ae214f6"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='ShopsListScreen']/?/?/container[@containertype='Linear']/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopsList_validation"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.390"
+			timeRelativeToTestModuleStartTime="00:07.390"
+			timeWallClock="16:11:22"
+			time="00:07.390"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=480,Height=105}) on item 'PkComTradetracker.Shop_Info'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']/container/container[@containertype='Linear']/container[1]"
+				itempath="form[@title='(none)']/container/container[@containertype='Linear']/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Shop_Info"
+				id="f54d48ff5db14692be659af110780888"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.750"
+			timeRelativeToTestModuleStartTime="00:07.750"
+			timeWallClock="16:11:22"
+			time="00:07.750"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.Shop_Info' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs"
+				codeline="83"
+				loglvl="Success"
+				id="f54d48ff5db14692be659af110780888"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']/container/container[@containertype='Linear']/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Shop_Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.750"
+			timeRelativeToTestModuleStartTime="00:07.750"
+			timeWallClock="16:11:22"
+			time="00:07.750"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopDetails' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']//list/container[1]"
+				itempath="form[@title='(none)']//list/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopDetails"
+				id="7044656bb3a4408bb7ff759845461a76"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.094"
+			timeRelativeToTestModuleStartTime="00:10.094"
+			timeWallClock="16:11:25"
+			time="00:10.094"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Info') on item 'PkComTradetracker.ShopDetails_Info'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']/container[@rid='content']//text[@caption='Info']"
+				itempath="form[@title='(none)']/container[@rid='content']//text[@caption='Info']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopDetails_Info"
+				id="39c898ad43444d73b6a45839978dd071"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.719"
+			timeRelativeToTestModuleStartTime="00:10.719"
+			timeWallClock="16:11:25"
+			time="00:10.719"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.ShopDetails_Info' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']/container[@rid='content']//text[@caption='Info']"
+				itempath="form[@title='(none)']/container[@rid='content']//text[@caption='Info']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopDetails_Info"
+				id="39c898ad43444d73b6a45839978dd071"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.719"
+			timeRelativeToTestModuleStartTime="00:10.719"
+			timeWallClock="16:11:25"
+			time="00:10.719"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopDetail_ProceedButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='(none)']/container[@rid='content']//button[@text='Proceed']"
+				itempath="form[@title='(none)']/container[@rid='content']//button[@text='Proceed']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopDetail_ProceedButton"
+				id="2e0cc62309a743b19ffb7b11076caf97"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.063"
+			timeRelativeToTestModuleStartTime="00:13.063"
+			timeWallClock="16:11:28"
+			time="00:13.063"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				itempath="?/?/toolbar/?/?/text[@caption='Trade Tracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TradeTracker_validation"
+				id="6feb4ff346e448138f0f1730043a66c2"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs"
+				codeline="383"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.063"
+			timeRelativeToTestModuleStartTime="00:23.063"
+			timeWallClock="16:11:38"
+			time="00:23.063"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopOpen_AndroidWidgetImageView_MapCheckIn' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='GpsCoordinates']/container[@rid='content']//picture"
+				itempath="form[@title='GpsCoordinates']/container[@rid='content']//picture"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_AndroidWidgetImageView_MapCheckIn"
+				id="3335a41576054015904c84b74378b258"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.454"
+			timeRelativeToTestModuleStartTime="00:25.454"
+			timeWallClock="16:11:40"
+			time="00:25.454"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopOpen' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='']/container[@rid='content']//list[@rid='list']/container[1]"
+				itempath="form[@title='']/container[@rid='content']//list[@rid='list']/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen"
+				id="162a940172884baaa83d621617e0fae3"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs"
+				codeline="108"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.486"
+			timeRelativeToTestModuleStartTime="00:34.486"
+			timeWallClock="16:11:49"
+			time="00:34.486"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.TPOSM_ButtonDone' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='CameraActivity']/container[@rid='content']//button[@text='  Done  ']"
+				itempath="form[@title='CameraActivity']/container[@rid='content']//button[@text='  Done  ']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TPOSM_ButtonDone"
+				id="663e0cad093a41f6847a4a75431895c2"
+				timeout="40000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs"
+				codeline="115"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.533"
+			timeRelativeToTestModuleStartTime="00:36.533"
+			timeWallClock="16:11:51"
+			time="00:36.533"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopOpen_TPOSMApplication' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']//list[@rid='list']/container[1]"
+				itempath="form[@title='MainShopOptionsListScreen']//list[@rid='list']/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_TPOSMApplication"
+				id="1cde65570ae4419d9ffa90d7c4336d97"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.423"
+			timeRelativeToTestModuleStartTime="00:38.423"
+			timeWallClock="16:11:53"
+			time="00:38.423"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=480,Height=74}) on item 'PkComTradetracker.ShopOpen_TPOSMApplication_validation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']//container[@containertype='Relative']"
+				itempath="form[@title='MainTouchPointListScreen']//container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_TPOSMApplication_validation"
+				id="2247ab789d3446cc9fb1e5e1fa0f8870"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.939"
+			timeRelativeToTestModuleStartTime="00:39.939"
+			timeWallClock="16:11:54"
+			time="00:39.939"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_TPOSMApplication_validation' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs"
+				codeline="87"
+				loglvl="Success"
+				id="2247ab789d3446cc9fb1e5e1fa0f8870"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']//container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_TPOSMApplication_validation"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.955"
+			timeRelativeToTestModuleStartTime="00:39.955"
+			timeWallClock="16:11:54"
+			time="00:39.955"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopOpen_TPOSMDeployment' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']//list[@rid='list']/container[@containertype='Relative']"
+				itempath="form[@title='MainTouchPointListScreen']//list[@rid='list']/container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_TPOSMDeployment"
+				id="0975b64329d34a9fa11d0ad785df75ad"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:42.845"
+			timeRelativeToTestModuleStartTime="00:42.845"
+			timeWallClock="16:11:57"
+			time="00:42.845"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=480,Height=74}) on item 'PkComTradetracker.ShopOpen_TPOSM_validation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				itempath="form[@title='TouchPointListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_TPOSM_validation"
+				id="6415d1632ec34916b7f305df67843491"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.877"
+			timeRelativeToTestModuleStartTime="00:43.877"
+			timeWallClock="16:11:58"
+			time="00:43.877"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_TPOSM_validation' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs"
+				codeline="95"
+				loglvl="Success"
+				id="6415d1632ec34916b7f305df67843491"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='TouchPointListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_TPOSM_validation"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:27.551"
+			timeRelativeToTestModuleStartTime="03:27.551"
+			timeWallClock="16:14:42"
+			time="03:27.551"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{BACK}' press on 'PkComTradetracker'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']"
+				itempath="/mobileapp[@title='pk.com.tradetracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Self"
+				id="00944a9563944d02a7c48e58b9e61445"
+				timeout="30000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:28.739"
+			timeRelativeToTestModuleStartTime="03:28.739"
+			timeWallClock="16:14:43"
+			time="03:28.739"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopOpen_TakePictureButton1' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']/container[@rid='content']/container/container[2]/button[1]"
+				itempath="form[@title='MainTouchPointListScreen']/container[@rid='content']/container/container[2]/button[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_TakePictureButton1"
+				id="edc1a6691ac747b6abfbcef128809f9e"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs"
+				codeline="105"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:39.277"
+			timeRelativeToTestModuleStartTime="03:39.277"
+			timeWallClock="16:14:54"
+			time="03:39.277"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.TPOSM_ButtonDone' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='CameraActivity']/container[@rid='content']//button[@text='  Done  ']"
+				itempath="form[@title='CameraActivity']/container[@rid='content']//button[@text='  Done  ']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TPOSM_ButtonDone"
+				id="663e0cad093a41f6847a4a75431895c2"
+				timeout="40000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs"
+				codeline="112"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:41.113"
+			timeRelativeToTestModuleStartTime="03:41.113"
+			timeWallClock="16:14:56"
+			time="03:41.113"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopOpen_TakePictureButton2' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainTouchPointListScreen']/container[@rid='content']/container/container[2]/button[2]"
+				itempath="form[@title='MainTouchPointListScreen']/container[@rid='content']/container/container[2]/button[2]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_TakePictureButton2"
+				id="72fd7de4d80a4a2280fa885e5518dd83"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs"
+				codeline="116"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:51.087"
+			timeRelativeToTestModuleStartTime="03:51.087"
+			timeWallClock="16:15:06"
+			time="03:51.087"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.TPOSM_ButtonDone' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='CameraActivity']/container[@rid='content']//button[@text='  Done  ']"
+				itempath="form[@title='CameraActivity']/container[@rid='content']//button[@text='  Done  ']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.TPOSM_ButtonDone"
+				id="663e0cad093a41f6847a4a75431895c2"
+				timeout="40000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs"
+				codeline="123"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:52.400"
+			timeRelativeToTestModuleStartTime="03:52.400"
+			timeWallClock="16:15:07"
+			time="03:52.400"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{BACK}' press on 'PkComTradetracker'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']"
+				itempath="/mobileapp[@title='pk.com.tradetracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Self"
+				id="00944a9563944d02a7c48e58b9e61445"
+				timeout="30000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs"
+				codeline="127"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:53.810"
+			timeRelativeToTestModuleStartTime="03:53.810"
+			timeWallClock="16:15:08"
+			time="03:53.810"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ShopOpen_AvailabilityCheck' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='MainShopOptionsListScreen']//list[@rid='list']/container[2]"
+				itempath="form[@title='MainShopOptionsListScreen']//list[@rid='list']/container[2]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_AvailabilityCheck"
+				id="d191195b32c94326808ef93bcc32eb02"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\AvailabilityCheck.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:56.021"
+			timeRelativeToTestModuleStartTime="03:56.021"
+			timeWallClock="16:15:11"
+			time="03:56.021"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=480,Height=74}) on item 'PkComTradetracker.ShopOpen_AvailabilityCheck_validation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^InformationCollectionScre']/?/?/container[@containertype='Linear']/container[1]"
+				itempath="form[@title~'^InformationCollectionScre']/?/?/container[@containertype='Linear']/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_AvailabilityCheck_validation"
+				id="2b2cb361a301411dad19777551c14cc7"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\AvailabilityCheck.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="03:57.381"
+			timeRelativeToTestModuleStartTime="03:57.381"
+			timeWallClock="16:15:12"
+			time="03:57.381"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_AvailabilityCheck_validation' does contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\AvailabilityCheck.cs"
+				codeline="87"
+				loglvl="Success"
+				id="2b2cb361a301411dad19777551c14cc7"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title~'^InformationCollectionScre']/?/?/container[@containertype='Linear']/container[1]"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_AvailabilityCheck_validation"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="04:43.509"
+			timeRelativeToTestModuleStartTime="04:43.509"
+			timeWallClock="16:15:58"
+			time="04:43.509"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key '{BACK}' press on 'PkComTradetracker'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']"
+				itempath="/mobileapp[@title='pk.com.tradetracker']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.Self"
+				id="00944a9563944d02a7c48e58b9e61445"
+				timeout="30000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\AvailabilityCheck.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="04:44.724"
+			timeRelativeToTestModuleStartTime="04:44.724"
+			timeWallClock="16:15:59"
+			time="04:44.724"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PkComTradetracker.ChangeOptionNoButton' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='Info']/container[@rid='content']//button[@rid='button2']"
+				itempath="form[@title='Info']/container[@rid='content']//button[@rid='button2']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ChangeOptionNoButton"
+				id="8fa68bb54cae46e69a9ba589a68c53a3"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\AvailabilityCheck.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="04:48.871"
+			timeRelativeToTestModuleStartTime="04:48.871"
+			timeWallClock="16:16:03"
+			time="04:48.871"
+			level="Info"
+			category="Validation"
+			errimg=".\ChooseTK_55453c9b_e118641a_trace.jpg"
+			errthumb=".\ChooseTK_55453c9b_e118641a_trace_thumb.jpg">
+			<message>
+				Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=480,Height=74}) on item 'PkComTradetracker.ShopOpen_BWUMaintenance_validation'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='BackWallListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				itempath="form[@title='BackWallListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_BWUMaintenance_validation"
+				id="f19a5eab3d85409c95e43ed04f457499"
+				timeout="60000"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\BWUMaintenance.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:10.013"
+			timeRelativeToTestModuleStartTime="05:10.013"
+			timeWallClock="16:16:25"
+			time="05:10.013"
+			level="Failure"
+			category="Validation"
+			errimg=".\ChooseTK_55453c9b_e1a497e9_trace.jpg"
+			errthumb=".\ChooseTK_55453c9b_e1a497e9_trace_thumb.jpg">
+			<message>
+				Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_BWUMaintenance_validation' does not contain the specified image.
+			</message>
+			<metainfo
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\BWUMaintenance.cs"
+				codeline="83"
+				loglvl="Failure"
+				id="f19a5eab3d85409c95e43ed04f457499"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='BackWallListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_BWUMaintenance_validation"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:10.044"
+			timeRelativeToTestModuleStartTime="05:10.044"
+			timeWallClock="16:16:25"
+			time="05:10.044"
+			level="Failure"
+			category="Expected image"
+			errimg=".\ChooseTK_224efa05_rxlog.jpg"
+			errthumb=".\ChooseTK_224efa05_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\BWUMaintenance.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:10.100"
+			timeRelativeToTestModuleStartTime="05:10.100"
+			timeWallClock="16:16:25"
+			time="05:10.100"
+			level="Failure"
+			category="Actual image"
+			errimg=".\ChooseTK_224efa06_rxlog.png"
+			errthumb=".\ChooseTK_224efa06_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				replaceImage="true"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\BWUMaintenance.cs"
+				codeline="83"
+				loglvl="Failure"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="05:10.319"
+			timeRelativeToTestModuleStartTime="05:10.319"
+			timeWallClock="16:16:25"
+			time="05:10.319"
+			level="Error"
+			category="Module"
+			errimg=".\ChooseTK_55453c9b_e1a497e9_trace.jpg"
+			errthumb=".\ChooseTK_55453c9b_e1a497e9_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Screenshot of item 'TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_BWUMaintenance_validation' does not contain the specified image.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   at Ranorex.Validate.ValidateImage(ValidateImageMethod validationMethod, Element element, Bitmap image, FindOptions findOptions, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.ContainsImage(Element element, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Options options)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions, String message, Boolean exceptionOnFail)
+   at Ranorex.Validate.ContainsImage(RepoItemInfo itemInfo, Bitmap image, FindOptions findOptions)
+   at TradeTrackerProject.TestCases.TK_ShopOpen.BWUMaintenance.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\BWUMaintenance.cs:line 83
+   at Ranorex.Core.Testing.TestModuleRunner.Run()
+   at Ranorex.Core.Testing.TestModuleRunner.Run(ITestModule testModule)
+   at TradeTrackerProject.TestCases.TK_ShopOpen.BWUMaintenance.Start() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\BWUMaintenance.cs:line 64
+   at TradeTrackerProject.ConstantUserCode.UserCodeCollection.countTKShopModules() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs:line 171
+   at TradeTrackerProject.TestCases.TK_ShopOpen.AvailabilityCheck.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\AvailabilityCheck.cs:line 101
+   at Ranorex.Core.Testing.TestModuleRunner.Run()
+   at Ranorex.Core.Testing.TestModuleRunner.Run(ITestModule testModule)
+   at TradeTrackerProject.TestCases.TK_ShopOpen.AvailabilityCheck.Start() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\AvailabilityCheck.cs:line 64
+   at TradeTrackerProject.ConstantUserCode.UserCodeCollection.loadTKAvailabilityCheck() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs:line 418
+   at TradeTrackerProject.TestCases.TK_ShopOpen.TPOSMApplication.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs:line 131
+   at Ranorex.Core.Testing.TestModuleRunner.Run()
+   at Ranorex.Core.Testing.TestModuleRunner.Run(ITestModule testModule)
+   at TradeTrackerProject.TestCases.TK_ShopOpen.TPOSMApplication.Start() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\TPOSMApplication.cs:line 64
+   at TradeTrackerProject.ConstantUserCode.UserCodeCollection.loadTKTPOSM() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs:line 428
+   at TradeTrackerProject.TestCases.TK_ShopOpen.VisitShopOpen.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs:line 119
+   at Ranorex.Core.Testing.TestModuleRunner.Run()
+   at Ranorex.Core.Testing.TestModuleRunner.Run(ITestModule testModule)
+   at TradeTrackerProject.TestCases.TK_ShopOpen.VisitShopOpen.Start() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\VisitShopOpen.cs:line 64
+   at TradeTrackerProject.ConstantUserCode.UserCodeCollection.chooseTKShopFromList() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs:line 133
+   at TradeTrackerProject.TestCases.TK_ShopOpen.ChooseTKShop.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\ChooseTKShop.cs:line 86
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\BWUMaintenance.cs"
+				codeline="83"
+				loglvl="Error"
+				id="f19a5eab3d85409c95e43ed04f457499"
+				path="/mobileapp[@title='pk.com.tradetracker']/form[@title='BackWallListScreen']/container/container[@containertype='Relative']/container[@containertype='Relative']"
+				fullname="TradeTrackerProjectRepository.PkComTradetracker.ShopOpen_BWUMaintenance_validation"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

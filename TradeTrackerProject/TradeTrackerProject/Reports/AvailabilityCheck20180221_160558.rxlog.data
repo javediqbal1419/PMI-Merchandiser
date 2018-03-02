@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2c159fd2db2009e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="HUAWEI LUA-U22 (Unknown)
+WLAN - 192.168.3.11"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="2/21/2018 4:06:14 PM"
+		timestampiso="2018-02-21T11:06:14"
+		endtime="2/21/2018 4:06:22 PM"
+		timeoutfactor="1"
+		module="AvailabilityCheck">
+		<detail>
+			AvailabilityCheck
+		</detail>
+		<errormessage>
+			Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.672"
+			timeRelativeToTestModuleStartTime="00:04.672"
+			timeWallClock="16:06:19"
+			time="00:04.672"
+			level="Error"
+			category="Module"
+			errimg=".\Availabi_525fd5c1_ff7ef4c2_trace.jpg"
+			errthumb=".\Availabi_525fd5c1_ff7ef4c2_trace_thumb.jpg">
+			<message>
+				Index was out of range. Must be non-negative and less than the size of the collection.<br/>Parameter name: index
+			</message>
+			<metainfo
+				stacktrace="   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at TradeTrackerProject.ConstantUserCode.UserCodeCollection.visitAvailabilityCheck() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs:line 463
+   at TradeTrackerProject.TestCases.TK_ShopOpen.AvailabilityCheck.Ranorex.Core.Testing.ITestModule.Run() in d:\QA Automation\TradeTrackerProject\TradeTrackerProject\TestCases\TK ShopOpen\AvailabilityCheck.cs:line 82
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="d:\QA Automation\TradeTrackerProject\TradeTrackerProject\UserCodeCollection\UserCodeCollection.cs"
+				codeline="463"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
